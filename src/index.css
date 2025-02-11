@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-beige-50 text-navy-900;
+  }
+
+  /* Hide default cursor */
+  * {
+    cursor: none !important;
+  }
+
+  /* Custom cursor styles */
+  .cursor-dot {
+    pointer-events: none;
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #102A43;
+    border-radius: 50%;
+    z-index: 9999;
+  }
+
+  .cursor-ring {
+    pointer-events: none;
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #102A43;
+    border-radius: 50%;
+    z-index: 9998;
+    transition: all 0.1s ease-out;
+  }
+
+  /* Hover effects for interactive elements */
+  a:hover ~ .cursor-ring,
+  button:hover ~ .cursor-ring {
+    transform: scale(1.5);
+  }
+}
+
+/* Smooth scroll animation */
+html {
+  scroll-behavior: smooth;
+  @apply scroll-smooth;
+}
+
+/* Hero video background */
+.hero-video {
+  @apply absolute inset-0 w-full h-full object-cover;
+  filter: brightness(0.8);
+}
+
+/* Gradient overlays */
+.gradient-overlay {
+  @apply absolute inset-0;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(16, 42, 67, 0.2) 50%,
+    rgba(16, 42, 67, 0.5) 100%
+  );
+}
+
+/* Elegant typography classes */
+.hero-title {
+  @apply font-playfair;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.hero-subtitle {
+  @apply font-inter;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+}
