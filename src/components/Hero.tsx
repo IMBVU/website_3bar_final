@@ -16,7 +16,7 @@ export function Hero() {
           playsInline
           className="w-full h-full object-cover scale-105"
         >
-          <source src="https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22pexels-cottonbro-4667035.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-02-13T00%3A12%3A53.038Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2Fff4d179a608f4267%2Fpexels-cottonbro-4667035.jpg%3FExpires%3D1834013573%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DkeCl3FIoNSc6kihATafppdxWWp-V7lqvUySKnB-6q04BbNk1KicHKdL7ZLaILsayxO~sK~eWX~BWOO-rd0mxjD0qW9zeXSMwK1yKCH~bPsbqb7sgwoROivDFRFRyR-MO82Q7dXWmkW9gwg8Y45gs~-ZKSq9XNTINoiozB9KY4jHH40T8FYzPfYbVKrddDUXF54Cr9Nj7hvNCIlLhya0Z01iT-P72PSqhPXED1STOlTXyALS1aTDX9x3ARlagJRbW8CVvyU51cGzBUpH0cSpfQaIzum2BmWz3fylhc9ldOWD2t6h0dPyrK1KYpwHYlpKUimRCj630qXbacn7P1iNWsQ__%22%7D" />
+          <source src="https://media-hosting.imagekit.io//ff4d179a608f4267/pexels-cottonbro-4667035.jpg?Expires=1834013573&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=keCl3FIoNSc6kihATafppdxWWp-V7lqvUySKnB-6q04BbNk1KicHKdL7ZLaILsayxO~sK~eWX~BWOO-rd0mxjD0qW9zeXSMwK1yKCH~bPsbqb7sgwoROivDFRFRyR-MO82Q7dXWmkW9gwg8Y45gs~-ZKSq9XNTINoiozB9KY4jHH40T8FYzPfYbVKrddDUXF54Cr9Nj7hvNCIlLhya0Z01iT-P72PSqhPXED1STOlTXyALS1aTDX9x3ARlagJRbW8CVvyU51cGzBUpH0cSpfQaIzum2BmWz3fylhc9ldOWD2t6h0dPyrK1KYpwHYlpKUimRCj630qXbacn7P1iNWsQ__" />
         </video>
       </div>
 
