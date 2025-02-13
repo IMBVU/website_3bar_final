@@ -16,7 +16,7 @@ export function Hero() {
           playsInline
           className="w-full h-full object-cover scale-105"
         >
-          <source src="src/components/Videos/hero.video.mp4" />
+          <source src="https://files.fm/u/2m7d8eq8cn" />
         </video>
       </div>
 
