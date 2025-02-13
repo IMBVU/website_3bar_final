@@ -16,7 +16,7 @@ export function Hero() {
           playsInline
           className="w-full h-full object-cover scale-105"
         >
-          <source src="https://files.fm/u/2m7d8eq8cn" />
+          <source src="<div class="sp-embed-player" data-id="cTnIc1nhZI3"><script src="https://go.screenpal.com/player/appearance/cTnIc1nhZI3"></script><iframe width="100%" height="100%" style="border:0;" scrolling="no" src="https://go.screenpal.com/player/cTnIc1nhZI3?width=100%&height=100%&ff=1&title=0" allowfullscreen="true"></iframe></div>" />
         </video>
       </div>
 
