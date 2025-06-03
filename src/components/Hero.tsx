@@ -2,6 +2,7 @@ import React from 'react';
 import { ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { fadeInUp, staggerContainer } from '../utils/animations';
+import heroVideo from '../components/Videos/4935606_people_person_man_ha097fb04232896041720p5000br.mp4';
 
 export function Hero() {
   return (
@@ -16,7 +17,7 @@ export function Hero() {
           playsInline
           className="w-full h-full object-cover scale-105"
         >
-          <source src="src/components/Videos/4935606_people_person_man_ha097fb04232896041720p5000br.mp4" />
+          <source src={heroVideo} type="video/mp4" />
         </video>
       </div>
 
