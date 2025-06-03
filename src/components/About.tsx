@@ -2,6 +2,7 @@ import React from 'react';
 import { Award, Clock, Users2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { fadeInUp, staggerContainer } from '../utils/animations';
+import aboutVideo from '../components/Videos/IMG_5455.mp4'
 
 const stats = [
   {
@@ -64,11 +65,15 @@ export function About() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative"
           >
-            <img
-              src="src/components/Videos/pexels-cihanyuce-12181755.jpg"
-              alt="Bartender crafting cocktail"
-              className="rounded-2xl"
-            />
+             <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover scale-105"
+        >
+          <source src={aboutVideo} type="video/mp4" />
+        </video>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
