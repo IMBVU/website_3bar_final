@@ -16,7 +16,7 @@ export function Hero() {
           playsInline
           className="w-full h-full object-cover scale-105"
         >
-          <source src="![pexels-cottonbro-4667035.jpg](<https://media-hosting.imagekit.io//ff4d179a608f4267/pexels-cottonbro-4667035.jpg?Expires=1834013573&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=keCl3FIoNSc6kihATafppdxWWp-V7lqvUySKnB-6q04BbNk1KicHKdL7ZLaILsayxO~sK~eWX~BWOO-rd0mxjD0qW9zeXSMwK1yKCH~bPsbqb7sgwoROivDFRFRyR-MO82Q7dXWmkW9gwg8Y45gs~-ZKSq9XNTINoiozB9KY4jHH40T8FYzPfYbVKrddDUXF54Cr9Nj7hvNCIlLhya0Z01iT-P72PSqhPXED1STOlTXyALS1aTDX9x3ARlagJRbW8CVvyU51cGzBUpH0cSpfQaIzum2BmWz3fylhc9ldOWD2t6h0dPyrK1KYpwHYlpKUimRCj630qXbacn7P1iNWsQ__>)" />
+          <source src="src/components/Videos/hero.video.mp4" />
         </video>
       </div>
 
