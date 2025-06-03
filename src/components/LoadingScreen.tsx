@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { playLoadingSound } from '../utils/sound';
+import logoImage from '../components/Videos/3bar LOGO_A.png';
 
 export function LoadingScreen() {
   return (
@@ -22,7 +23,7 @@ export function LoadingScreen() {
           transition={{ delay: 0.2, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="text-6xl md:text-8xl font-playfair text-white font-light"
         >
-          <img src="src/components/Videos/3bar LOGO_A.png" alt="" />
+          <img src={logoImage} alt="3Bar Logo" />
         </motion.h1>
         <motion.div
           initial={{ scaleX: 0 }}
