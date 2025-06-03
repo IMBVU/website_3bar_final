@@ -2,7 +2,7 @@ import React from 'react';
 import { ChevronDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { fadeInUp, staggerContainer } from '../utils/animations';
-import heroVideo from '../components/Videos/4935606_people_person_man_ha097fb04232896041720p5000br.mp4';
+import heroVideo from '../hero.video.mp4';
 
 export function Hero() {
   return (
