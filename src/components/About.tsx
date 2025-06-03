@@ -70,7 +70,7 @@ export function About() {
           loop
           muted
           playsInline
-          className="w-full h-full object-cover scale-105"
+          className="w-full h-full object-cover scale-50"
         >
           <source src={aboutVideo} type="video/mp4" />
         </video>
