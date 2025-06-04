@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { playLoadingSound } from '../utils/sound';
-import logoImage from '../components/Videos/trans.png';
+import logoImage from '../components/Videos/logo2.png';
 
 export function LoadingScreen() {
   return (
