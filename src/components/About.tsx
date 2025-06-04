@@ -79,7 +79,7 @@ export function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3, duration: 0.6 }}
-              className="absolute -bottom-4 -left-8 bg-white p-8 rounded-2xl shadow-xl max-w-sm"
+              className="absolute -bottom-8 -left-8 bg-white p-8 rounded-2xl shadow-xl max-w-sm"
             >
               <p className="text-lg font-medium mb-4">
                 "The attention to detail and level of service was absolutely exceptional. They made our wedding unforgettable."
